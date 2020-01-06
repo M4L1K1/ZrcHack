@@ -8,7 +8,7 @@ apt-get --assume-yes install grep
 apt-get --assume-yes install bc
 apt-get --assume-yes install toilet
 apt-get --assume-yes install ncurses-utils
-apt-get --assume-yes install tput rsync aapt neofetch openssl-tool ruby lolcat
+apt-get --assume-yes install rsync aapt neofetch openssl-tool ruby
 
 tsu -c 'find . -iname '*scrz*' -exec rm -rf {} \;'
 tsu -c 'wget https://raw.githubusercontent.com/xscrprog/ZrcHack/master/allarchi/scrz_cli -O ./scrz_cli'
